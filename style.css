@@ -1,0 +1,93 @@
+body {
+  background-color: #ffffea;
+  font-family: 'Amatic SC';
+  font-size: 150%;
+  color: #AE6313;
+  line-height: 50px;
+}
+
+h1, h2 {
+  font-family: 'Honk', cursive, sans-serif;
+  font-size: 200%;
+}
+
+[class^=fa] {
+  color: fuchsia;
+}
+
+.container {
+  width: 900px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.btn-nodeco{
+  text-decoration: none;
+}
+
+.card {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border: 1px solid lightgray;
+  margin: 15px auto;
+  box-shadow: 10px 10px 15px wheat;
+}
+
+.img-circle {
+  width: 30%;
+  height: auto;
+  border-radius: 150px;
+  box-shadow: 10px 10px 25px grey;
+}
+
+.list-inline {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.button-sizing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: fuchsia;
+  border: none;
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+}
+
+.btn-whitetext{
+  color: wheat;
+  text-decoration: none;
+  font-family: honk, cursive, sans-serif;
+  font-size: 200%;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
