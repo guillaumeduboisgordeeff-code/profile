@@ -1,4 +1,5 @@
 body {
+  background-image: url('images/background.png');
   background-color: #ffffea;
   font-family: 'Amatic SC';
   font-size: 150%;
@@ -16,7 +17,7 @@ h1, h2 {
 }
 
 .container {
-  width: 900px;   /* Définit la largeur */
+  width: 750px;   /* Définit la largeur */
   margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
 }
 
@@ -31,7 +32,7 @@ h1, h2 {
   padding: 30px;
   border: 1px solid lightgray;
   margin: 15px auto;
-  box-shadow: 10px 10px 15px wheat;
+  box-shadow: 10px 10px 15px lightsteelblue;
 }
 
 .img-circle {
